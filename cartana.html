@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cartana Online Business Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #555;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        main {
+            padding: 20px;
+        }
+        .product {
+            background-color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        .contact-form {
+            background-color: white;
+            padding: 15px;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+        .intro {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 5px solid #333;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 20px auto;
+            max-width: 150px;
+        }
+        .category, .testimonial {
+            background-color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cartana Online Business Website</h1>
+        <p>Your trusted online shopping platform</p>
+    </header>
+
+    <div class="intro">
+        <img src="Cartana logo.png" alt="Cartana Logo" class="logo">
+        <h2>Welcome to Cartana</h2>
+        <p>Cartana is a student-built  project that is to be used fot tech products.It is designed to demonstrate a simple yet functional online shopping experience using only HTML and basic styling. Users can view products, access a contact form, and learn about the website from the about section. This project showcases how a basic static e-commerce website can be created without backend technologies, focusing on structure, layout, and presentation.</p>
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#categories">Categories</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About Us</a>
+    </nav>
+
+    <main>
+        <section id="products">
+                <h3>Latest smartphone for sale</h3>
+                <img src="pexels-pixabay-207455.jpg" alt="smartphone width="300" height="Auto">
+                <p>Powerful smartphone with long battery life. Price: KES 18,000</p>
+            </div>
+            <div class="product">
+                <h3>Wireless Headphones for sale</h3>
+                <img src="headphones.JPG.jpg" alt="Headphones">
+                <p>High-quality sound and comfort. Price: KES 3,500</p>
+
+            </div>
+        </section>
+
+        <section id="categories">
+            <h2>Featured Products</h2>
+            <div class="product">
+            <h2>Product Categories</h2>
+            <div class="category">
+                <h3>Electronics</h3>
+                <p>Mobile phones, tablets, laptops, and accessories.</p>
+            </div>
+            <div class="category">
+                <h3>Fashion</h3>
+                <p>Clothing, shoes, bags, and more for men and women.</p>
+            </div>
+            <div class="category">
+                <h3>Home Essentials</h3>
+                <p>Kitchen appliances, furniture, and cleaning supplies.</p>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>What Our Users Say</h2>
+            <div class="testimonial">
+                <p>"Cartana is very easy to use and has a clean layout. I loved browsing through the products!" – Mary K.</p>
+            </div>
+            <div class="testimonial">
+                <p>"I appreciate the simplicity. This site helped me understand how online businesses work." – Brian T.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+
+        <section id="about">
+            <h2>About Cartana</h2>
+            <p>Cartana is a student-built website inspired by Jumia, designed to simulate a simple online business platform where users can explore and inquire about various products. The website was created as part of a practical academic project to demonstrate basic website creation skills using only HTML. Although it does not have a backend or live transactions, Cartana showcases how e-commerce websites work in terms of structure, categories, and layout.</p>
+            <p>The aim is to provide a learning tool for beginner developers and a sample design for those interested in building online business platforms. Future improvements may include adding real-time cart functionality, database integration, and payment gateway simulation.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cartana. All rights reserved.</p>
+    </footer>
+</body>
+</html>
